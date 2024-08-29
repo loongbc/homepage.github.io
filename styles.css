@@ -1,0 +1,124 @@
+/* 基本样式 */
+body {
+    font-family: 'Georgia', serif; /* 使用更具学术风格的字体 */
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* 白色背景 */
+    color: #333333; /* 更柔和的深灰色文字 */
+    line-height: 1.6; /* 改善文本的可读性 */
+}
+
+header {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: 2px solid #d0d0d0; /* 加粗的浅灰色分割线，增强层次感 */
+}
+
+header h1 {
+    font-size: 2.5em; /* 更大的标题字体 */
+    font-weight: 700; /* 加粗标题 */
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em; /* 较大的副标题字体 */
+    color: #666666; /* 更浅的灰色，使其不太突兀 */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dddddd;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #333333; /* 深灰色文字 */
+    text-decoration: none;
+    padding: 15px 20px; /* 增加内边距，提升点击区域 */
+    display: block;
+    font-weight: 600; /* 半粗体文字，突出导航 */
+    transition: color 0.3s, background-color 0.3s; /* 添加平滑过渡效果 */
+}
+
+nav ul li a:hover {
+    color: #ffffff; /* 悬停时文字变为白色 */
+    background-color: #333333; /* 悬停时背景为深灰色 */
+}
+
+section {
+    padding: 60px 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dddddd;
+}
+
+.container {
+    width: 70%; /* 减小宽度，使内容更集中 */
+    margin: 0 auto;
+}
+.containerss {
+    width: 70%; /* 减小宽度，使内容更集中 */
+    margin: 0 auto;
+    text-align: justify;
+}
+h2 {
+    font-size: 2em; /* 更大、更醒目的二级标题 */
+    border-bottom: 2px solid #d0d0d0; /* 在标题下方添加分割线 */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #333333; /* 深灰色标题 */
+}
+
+p {
+    font-size: 1em;
+    color: #555555; /* 较浅的灰色文字 */
+}
+
+footer {
+    background-color: #ffffff;
+    color: #666666;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px solid #d0d0d0; /* 加粗的浅灰色分割线 */
+    font-size: 0.9em; /* 较小的字体，适合页脚内容 */
+}
+
+.profile-photo {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #d0d0d0; /* 添加浅灰色边框，突出照片 */
+}
+
+.clustrmaps-globe-widget {
+    width: 150px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* 增强可访问性的按钮样式 */
+button, a.button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1px solid #333333;
+    background-color: #ffffff;
+    color: #333333;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover, a.button:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
